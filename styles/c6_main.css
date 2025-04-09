@@ -1,0 +1,75 @@
+/* c6_main.css */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: white;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  width: 800px;
+  margin: 0 auto;
+  border: 3px solid #931420;
+  background-color: #fffded;
+}
+header {
+  padding: 1.5em 0 2em 0;
+  border-bottom: 3px solid #931420;
+  /* gradient background */
+}
+header img {
+  float: left;
+  padding: 0 30px;
+}
+header h2 {
+  font-size: 175%;
+  color: #800000;
+}
+header h3 {
+  font-size: 130%;
+  font-style: italic;
+}
+.shadow {
+  text-shadow: 2px 2px 2px #800000;
+}
+
+/* Float aside to the LEFT and make it ~215px wide */
+aside {
+  float: left;
+  width: 215px;
+  margin-right: 20px; /* space between aside and main content */
+}
+
+section {
+  float: right;
+  width: 525px;
+  padding: 0 20px 20px 20px;
+}
+
+main h1 {
+  font-size: 150%;
+  padding: 0.5em 25px;
+  color: #800000;
+  margin: 0;
+  border-top: 3px solid #931420;
+  border-bottom: 3px solid #931420;
+}
+
+article {
+  padding: 0.5em 0;
+  border-top: 2px solid #800000;
+  border-bottom: 2px solid #800000;
+}
+
+footer {
+  background-color: #931420;
+  clear: both; /* ensures footer is below the floated columns */
+}
+footer p {
+  text-align: center;
+  color: white;
+  padding: 1em 0;
+}
